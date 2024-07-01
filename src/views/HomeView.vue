@@ -1,9 +1,9 @@
 <template>
   <div class="container" id="home">
-    <section class="row" id="landing"></section>
+    <!-- <section class="row" id="landing"></section> -->
   </div>
   <div class="home">
-    <HelloWorld msg="Hello I am Ntando Mabuto an Aspiring Web Developer"/>
+    <HelloWorld msg="Hello I am Ntando Mabuto a Web Developer"/>
   </div>
 </template>
 <!-- <footer-comp>

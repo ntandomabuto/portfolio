@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <h1>Testimonials</h1>
+    <div id="testimonials">
     </div>
+    <h1>Testimonials</h1>
 </template>
 <script>
 export default {
