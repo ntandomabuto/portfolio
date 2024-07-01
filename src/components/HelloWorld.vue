@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <!-- <img alt="" src="https://ntandomabuto.github.io/images/siw.jpg" width="30%">
+    <img alt="" src="https://ntandomabuto.github.io/images/siw.jpg" width="30%">
 
-    <h1 class="gif">{{ msg }}</h1> -->
+    <h1 class="gif">{{ msg }}</h1>
   </div>
 </template>
 
