@@ -6,7 +6,7 @@
     <router-link to="/projects">Projects</router-link> |
     <router-link to="/testimonials">Testimonials</router-link> |
     <router-link to="/contact">Contact</router-link>  -->
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end fixed-top" style="margin-top: 30px;">
         <li class="nav-item nav-pills"><a href="#home">Home</a></li>
         <li class="nav-item"><a href="#about">About</a></li>
         <li class="nav-item"><a href="#resume">Resume</a></li>
@@ -16,3 +16,8 @@
     </ul>
   </nav>
 </template>
+<style>
+ul li{
+    text-decoration: none;
+}
+</style>

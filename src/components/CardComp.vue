@@ -1,10 +1,11 @@
 <template>
-    <div id="projects">
+    <div>
+        <slot></slot>
     </div>
-    <h1>Projects</h1>
 </template>
 <script>
 export default {
+    
 }
 </script>
 <style>
