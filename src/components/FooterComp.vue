@@ -4,14 +4,16 @@
         <a href="https://github.com/ntandomabuto" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d317;"></i></a>
         <div class="footer-container container">
     <p>Designed and developed by <b>Ntando Mabuto</b></p>
-    Copyright © <p id="foot"></p>. All Rights Reserved
+    Copyright ©{{ year }}. All Rights Reserved
         </div>
     </footer>
 </template>
 <script>
 export default {
-    methods:{
-        
+    data() {
+        return {
+            year: new Date().getFullYear()
+        }
     }
 }
 </script>

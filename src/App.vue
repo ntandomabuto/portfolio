@@ -8,7 +8,7 @@
   <testimonials-view/>
   <contact-view/>
   <footer-comp/>
-</template>
+  </template>
 <script>
 import NavbarComp from '@/components/NavbarComp.vue'
 import FooterComp from '@/components/FooterComp.vue'
@@ -35,6 +35,7 @@ export default{
 body{
   background: rgb(116, 114, 114);
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,7 +46,7 @@ body{
 
 }
 
-nav {
+nav{
   padding: 30px;
 
 }
@@ -57,7 +58,7 @@ nav a {
   margin: 2px;
 }
 
-nav a.router-link-exact-active {
+.nav-item a.exact-active {
   color: #76b942;
 }
 /* .gif{
