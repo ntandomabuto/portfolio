@@ -35,7 +35,9 @@ export default{
 body{
   background: rgb(116, 114, 114);
 }
-
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -51,7 +53,9 @@ nav{
 
 }
 
-
+/* .ho{
+  overflow: hidden;
+} */
 nav a {
   font-weight: bold;
   color: white;
@@ -61,15 +65,4 @@ nav a {
 .nav-item a.exact-active {
   color: #76b942;
 }
-/* .gif{
-  position: relative;
-  animation-name: gif;
-  animation-duration: 4s;  
-  animation-delay: 0;
-  animation-fill-mode: backwards; 
-} */
-/* @keyframes gif{
-    from {right: 0px;}
-  to {right: 400px;}
-} */
 </style>

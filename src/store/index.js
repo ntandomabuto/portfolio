@@ -2,7 +2,8 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     aboutMe: null,
-    education: null
+    education: null,
+    projects:null
   },
   getters: {
   },
@@ -12,6 +13,9 @@ export default createStore({
     },
     setEducation(state,info){
       state.education = info
+    },
+    setProjects(state,info){
+      state.projects =info
     }
   },
   actions: {
@@ -27,6 +31,12 @@ export default createStore({
       let {education} =vitae
       context.commit('setEducation',education)
     },
+    async getProjects(context){
+      let fetchedData = await fetch('https://ntandomabuto.github.io/data/data.json');
+      let pro = await fetchedData.json();
+      let {projects} =pro
+      context.commit('setProjects',projects)
+    }
   },
   modules: {
   }
