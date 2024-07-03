@@ -1,6 +1,7 @@
 <template>
     <div>
-        <slot></slot>
+        <slot name="resumeSlot"></slot>
+        <slot name="skillSlot"></slot>
     </div>
 </template>
 <script>

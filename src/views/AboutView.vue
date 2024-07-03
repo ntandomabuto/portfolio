@@ -32,9 +32,17 @@ img{
   border-radius: 2rem;
   margin-left:5px ;
 }
+h1{
+  text-shadow: 3px 5px 3px black;
+  transition: transform linear 2s;
+}
+h1:hover{
+  color: #40d317;
+}
 h5{
   align-content: center;
   text-align: start;
   margin-left: 5px;
+  text-shadow: 2px 2px 2px black;
 }
 </style>
