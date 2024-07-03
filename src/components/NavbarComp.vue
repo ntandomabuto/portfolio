@@ -17,7 +17,11 @@
   </nav>
 </template>
 <style>
-ul li{
+ul li a{
     text-decoration: none;
+    transition: transform linear 1s;
+}
+ul li a:hover{
+    color:#76b942
 }
 </style>
