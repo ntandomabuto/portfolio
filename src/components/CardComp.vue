@@ -3,6 +3,7 @@
         <slot name="resumeSlot"></slot>
         <slot name="skillSlot"></slot>
         <slot name="proSlot"></slot>
+        <slot name="review"></slot>
     </div>
 </template>
 <script>

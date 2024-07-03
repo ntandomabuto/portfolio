@@ -3,7 +3,8 @@ export default createStore({
   state: {
     aboutMe: null,
     education: null,
-    projects:null
+    projects:null,
+    testimonials:null
   },
   getters: {
   },
@@ -16,6 +17,9 @@ export default createStore({
     },
     setProjects(state,info){
       state.projects =info
+    },
+    setTestimonials(state,info){
+      state.testimonials = info
     }
   },
   actions: {
@@ -24,7 +28,7 @@ export default createStore({
       let about = await fetchedData.json();
       let {aboutMe} =about
       context.commit('setAboutMe',aboutMe)
-    },
+    },  
     async getEducation(context){
       let fetchedData = await fetch('https://ntandomabuto.github.io/data/data.json');
       let vitae = await fetchedData.json();
@@ -36,6 +40,13 @@ export default createStore({
       let pro = await fetchedData.json();
       let {projects} =pro
       context.commit('setProjects',projects)
+    },
+    async getTestimonials(context){
+      let fetchedData = await fetch('https://ntandomabuto.github.io/data/data.json');
+      let review = await fetchedData.json();
+      let {testimonials} = review
+      context.commit('setTestimonials',testimonials)
+
     }
   },
   modules: {
