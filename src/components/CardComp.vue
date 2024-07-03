@@ -2,6 +2,7 @@
     <div>
         <slot name="resumeSlot"></slot>
         <slot name="skillSlot"></slot>
+        <slot name="proSlot"></slot>
     </div>
 </template>
 <script>
