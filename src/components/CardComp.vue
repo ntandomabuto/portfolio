@@ -12,5 +12,13 @@ export default {
 }
 </script>
 <style>
-    
+    @media screen and (max-width:780px) {
+    *{
+        color: white;
+      }
+      slot{
+        display: grid;
+        
+    }
+}
 </style>

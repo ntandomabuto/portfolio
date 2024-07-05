@@ -1,32 +1,34 @@
 <template>
-    <div class="loading">
-      <div class="spinner"></div>
+  <div class="spinner">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
     </div>
-  </template>
-  
-  <style scoped>
-  .loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  </div>
+</template>
+
+<style>
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner-border {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #76b942; 
+  border-top: 3px solid #f3f3f3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  .spinner {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 4px solid #ccc;
-    border-top: 4px solid #333;
-    animation: spin 1s linear infinite;
+  100% {
+    transform: rotate(360deg);
   }
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  </style>
+}
+</style>

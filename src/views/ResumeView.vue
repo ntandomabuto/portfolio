@@ -4,9 +4,9 @@
 <card-comp>
     <template #resumeSlot>
         <section id="educa">
-            <div v-for="education in education()" :key="education">
+            <div v-for="education in education()" :key="education" class="res">
                 <h5>  {{ education.description }}<br>
-              {{ education.institution }}<br>
+              {{ education.institution }}{{ education.insititution }}<br>
                 {{ education.year }}<br>
                 </h5>
             
@@ -114,6 +114,10 @@ h1:hover{
     justify-content: center;
     
 }
+h5{
+    text-shadow: 5px 5px 7px black;
+
+}
 p{
     text-shadow: 2px 2px 2px black;
 }
@@ -131,5 +135,12 @@ p{
 #educa{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+@media screen and (max-width:780px) {
+      .educa{
+        display: grid;
+        
+    }
+    
 }
 </style>

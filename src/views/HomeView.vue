@@ -4,26 +4,31 @@
   </div>
   <div class="home">
     <HelloWorld msg="Hello I am Ntando Mabuto a Web Developer"/>
+    <SpinnerComp v-if="loading" />
   </div>
-  <about-view/>
+  <!-- <about-view/> -->
 </template>
-<!-- <footer-comp>
-
-</footer-comp> -->
-<!-- <navbar-comp/>
-<spinner-comp/> -->
 
 <script>
-// @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import SpinnerComp from '@/components/SpinnerComp.vue'
 
 export default {
   name: 'HomeView',
   components: {
     HelloWorld,
+    SpinnerComp
+  },
+  data() {
+    return {
+      loading: true 
+    }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false
+    }, 4000)
   }
-
 }
 </script>
 <style>
@@ -35,7 +40,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 5s ease-in-out;
   height: 100vh; 
 }
 @keyframes fadeIn {
@@ -46,5 +51,14 @@ export default {
     opacity:1;
   }
 }
-
+@media screen and (max-width:780px) {
+    *{
+        color: white;
+      }
+      .container{
+        display: grid;
+        
+    }
+    
+}
 </style>

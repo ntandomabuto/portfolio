@@ -1,8 +1,14 @@
 <template>
   <div class="hello">
     <img alt="" src="https://ntandomabuto.github.io/images/siw.jpg" width="30%">
+    <div class="hey">
+      <h1>{{ msg }}</h1>
+      <button type="button"><a href="#about">About Me</a>
+      </button>
 
-    <h1>{{ msg }}</h1>
+    </div>
+      
+
   </div>
 </template>
 
@@ -15,7 +21,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 *{
     padding: 0;
@@ -29,12 +34,33 @@ export default {
   /* text-align: center; */
   justify-content: center;
 }
+
+.hey{
+  justify-content: center;
+  align-content: center;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+button{
+  background-color: grey;
+  border-radius: 2rem;
+  width: 100px;
+  transition: transform linear 1s;
+}
+button:hover{
+  background: #76b942;
+}
 img{
   border-radius: 7rem;
 }
 h1{
-  padding-left: 15px;
-  /* color: white; */
+  padding-left: 25px;
+  color: white;
   align-content: center;
+}
+@media screen and (max-width:780px) {
+
 }
 </style>

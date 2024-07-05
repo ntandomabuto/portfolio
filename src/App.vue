@@ -1,4 +1,5 @@
 <template>
+  <div class="joy">
   <navbar-comp/>
   <!-- <router-view/> -->
    <home-view/>
@@ -8,6 +9,7 @@
   <testimonials-view/>
   <contact-view/>
   <footer-comp/>
+  </div>
   </template>
 <script>
 import NavbarComp from '@/components/NavbarComp.vue'
@@ -50,19 +52,39 @@ body{
 
 nav{
   padding: 30px;
-
+  
 }
 
 /* .ho{
   overflow: hidden;
-} */
-nav a {
+  } */
+  nav a {
+  background-color: rgb(116, 114, 114);
+  border-radius: 2rem;
+  padding: 5px;
   font-weight: bold;
   color: white;
   margin: 2px;
 }
 
-.nav-item a.exact-active {
+/* .nav-item a.exact-active {
   color: #76b942;
+} */
+/* .joy{
+  overflow: hidden;
+} */
+@media screen and (max-width:780px) {
+    /* body{
+        color: white;
+      } */
+      .joy{
+        display: grid;
+        /* overflow: hidden; */
+        
+    }
+    img{
+      width: 20%;
+    }
+    
 }
 </style>

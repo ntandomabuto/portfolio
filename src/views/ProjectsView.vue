@@ -1,6 +1,5 @@
 <template>
-    <div id="projects" data-aos="fade-up"
-    data-aos-duration="1000">
+    <div id="projects">
     <h1>Projects</h1>
         <card-comp>
         <template #proSlot>
@@ -73,6 +72,21 @@ section{
     border-radius: 5rem;
     color: white;
     box-shadow: 2px 3px 5px black;
+}
+@media screen and (max-width:780px) {
+    *{
+        color: white;
+      }
+      .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        
+    }
+    #projects{
+        display: grid;
+    }
+    
 }
 
 </style>
