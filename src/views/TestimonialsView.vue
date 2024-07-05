@@ -14,7 +14,6 @@
         </div>
     </section>
 </template>
-
 </card-comp>
 
     </div>
