@@ -1,5 +1,5 @@
 <template>
-    <div id="testimonials" data-aos="zoom-in-down">
+    <div id="testimonials">
         <h1>Testimonials</h1>
 <card-comp>
 <template #review>
