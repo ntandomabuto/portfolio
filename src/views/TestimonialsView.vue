@@ -62,4 +62,15 @@ export default {
 h1:hover{
   color: #40d317;
 }
+@media screen and (max-width:780px) {
+    *{
+        color: white;
+      }
+      .card{
+        display: grid;
+        text-decoration: none;
+        
+    }
+    
+}
 </style>

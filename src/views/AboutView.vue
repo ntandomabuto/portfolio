@@ -26,7 +26,24 @@ export default {
 .about{
   display: flex;
   margin: 50px;
-  
+}
+#about{
+  text-shadow: 5px 5px 7px black;
+  position: relative; 
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 5s ease-in-out;
+  height: 100vh; 
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
 }
 img{
   border-radius: 2rem;
@@ -44,5 +61,15 @@ h5{
   text-align: start;
   margin-left: 5px;
   text-shadow: 2px 2px 2px black;
+}
+@media screen and (max-width:780px) {
+    *{
+        color: white;
+      }
+      .about{
+        display: grid;
+        
+    }
+    
 }
 </style>
