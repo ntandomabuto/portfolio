@@ -2,6 +2,8 @@
   <div class="hello">
     <img alt="" src="https://ntandomabuto.github.io/images/siw.jpg" width="30%">
     <div class="hey">
+      <h1>Hello</h1>
+      <h1>I am Ntando Mabuto</h1>
       <h1>{{ msg }}</h1>
       <button type="button"><a href="#about">About Me</a>
       </button>

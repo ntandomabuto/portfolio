@@ -4,12 +4,13 @@
     <div class="about">
       <div class="h5">
         <h1 class="text-center">About</h1>
-      <h5>{{ aboutMe }}.</h5>
+      <p>{{ aboutMe }}.</p>
 
       </div>
     <div>
     <!-- <img alt="" src="https://ntandomabuto.github.io/images/siw.jpg" width="70%"> -->
-    <h3 class="ski">Skills</h3>
+     <div class="so">
+    <h1 class="ski">Skills</h1>
     <section class="skills">
             <div class="html">
                 <i class="fa-brands fa-html5 fa-5x" style="color: rgb(116, 114, 114);"></i>
@@ -44,6 +45,7 @@
                 <h4>MySql</h4>
             </div>
         </section>
+        </div>
     </div>
     </div>
   </div>
@@ -64,11 +66,12 @@ export default {
 <style scoped>
 .about{
   display: flex;
-  margin: 50px;
+  margin: 70px;
+  /* margin-left: 150px; */
   }
   #about{
     /* margin-top: 7em; */
-    height: 10vh;
+    height: 7vh;
   }
 .ski{
   margin-left: 100px;
@@ -90,17 +93,19 @@ h1{
 }
 .skills div{
     margin-bottom: 10%;
-    margin-left: 25%;
+    margin-left: 35%;
     width: 150px;
-
     transition: transform linear 1s;
     
 }
+.so{
+  margin: 60px;
+}
 .skills{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
-    
+    margin: 50px;
 }
 .skills div:hover{
     /* transform: scale(1,2); */
@@ -131,7 +136,8 @@ h1:hover{
 .h5{
   align-content: center;
   text-align: start;
-  margin-left: 5px;
+  margin-left: 50px;
+  width: 900px;
   text-shadow: 2px 2px 2px black;
 }
 @media screen and (max-width:780px) {

@@ -3,7 +3,8 @@
     <!-- <section class="row" id="landing"></section> -->
   </div>
   <div class="home">
-    <HelloWorld msg="Hello I am Ntando Mabuto a Web Developer"/>
+    <HelloWorld msg="
+    An Aspiring Web Developer"/>
     <SpinnerComp v-if="loading" />
   </div>
   <!-- <about-view/> -->
