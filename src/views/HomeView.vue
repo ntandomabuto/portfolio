@@ -59,6 +59,9 @@ export default {
         display: grid;
         
     }
+    .home{
+      height: 60vh;
+    }
     
 }
 </style>

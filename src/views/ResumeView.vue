@@ -1,13 +1,15 @@
 <template>
-    <div id="resume">
-        <h1>Resume</h1>
+    <div id="resume"></div>
+    <div id="res">
+        <h1>Education</h1>
 <card-comp>
     <template #resumeSlot>
         <section id="educa">
             <div v-for="education in education()" :key="education" class="res">
+                <img :src="education.img" alt="" width="30%" height="250vh">
                 <h5>  {{ education.description }}<br>
-              {{ education.institution }}{{ education.insititution }}<br>
-                {{ education.year }}<br>
+                    {{ education.institution }}{{ education.insititution }}<br>
+                    {{ education.year }}<br>
                 </h5>
             
                 <h5 v-for="detail in education.contact" :key="detail">
@@ -20,34 +22,8 @@
         </section>
     </template>
 </card-comp>
-<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/cv.docx"><i class="fa-solid fa-arrow-right-to-bracket">Curriculum Vitae</i></a></button>
-<h2>Skills</h2>
-        <section class="skills">
-            <div class="js">
-                <i class="fa-brands fa-js fa-10x" style="color: #40d317;"></i>
-                <h4>JAVASCRIPT</h4>
-            </div>
-            <div class="html">
-                <i class="fa-brands fa-html5 fa-10x" style="color: #40d317;"></i>
-                <h4>HTML</h4>
-            </div>
-            <div class="css">
-                <i class="fa-brands fa-css3 fa-10x" style="color: #40d317;"></i>
-                <h4>CSS</h4>
-            </div>
-            <div class="figma">
-                <i class="fa-brands fa-figma fa-10x" style="color: #40d317;"></i>
-                <h4>FIGMA</h4>
-            </div>
-            <div class="boot">
-                <i class="fa-brands fa-bootstrap fa-10x" style="color: #40d317;"></i>
-                <h4>BOOTSTRAP</h4>
-            </div>
-            <div class="vue">
-                <i class="fa-brands fa-vuejs fa-10x" style="color: #40d317;"></i>
-                <h4>VUE</h4>
-            </div>
-        </section>
+<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/cv.docx"><i class="fa-solid fa-arrow-right-to-bracket">CV</i></a></button>
+
 
     </div>
 </template>
@@ -84,23 +60,8 @@ export default {
     text-decoration: none;
 
 }
-/* h4{
-    margin: 50px;
-} */
-.skills div{
-    margin-bottom: 10%;
-    margin-left: 25%;
-    width: 250px;
 
-    transition: transform linear 1s;
-    
-}
-.skills div:hover{
-    /* transform: scale(1,2); */
-    transform:scale(1.2);
-    box-shadow: 0 0 15px 2px black;
-    border-radius: 2rex;
-}
+
 h1{
   text-shadow: 3px 5px 3px black;
   transition: transform linear 2s;
@@ -108,12 +69,7 @@ h1{
 h1:hover{
   color: #40d317;
 }
-.skills{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    
-}
+
 h5{
     text-shadow: 5px 5px 7px black;
 
@@ -135,6 +91,14 @@ p{
 #educa{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+img{
+    border-radius: 2rem;
+}
+#resume{
+    margin-top: 7em;
+    height: 10vh;
 }
 @media screen and (max-width:780px) {
       .educa{

@@ -6,7 +6,6 @@
   <about-view/>
   <resume-view/>
   <projects-view/>
-  <testimonials-view/>
   <contact-view/>
   <footer-comp/>
   </div>
@@ -18,7 +17,6 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ResumeView from '@/views/ResumeView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
-import TestimonialsView from '@/views/TestimonialsView.vue'
 import ContactView from '@/views/ContactView.vue'
 export default{
   components:{
@@ -28,14 +26,14 @@ export default{
     AboutView,
     ResumeView,
     ProjectsView,
-    TestimonialsView,
     ContactView
   }
 }
 </script>
 <style>
 body{
-  background: rgb(116, 114, 114);
+  /* background: rgb(116, 114, 114); */
+  background: linear-gradient(rgb(116, 114, 114),#40d317,rgb(116, 114, 114),#40d317,rgb(116, 114, 114));
 }
 *{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,7 +50,6 @@ body{
 
 nav{
   padding: 30px;
-  
 }
 
 /* .ho{

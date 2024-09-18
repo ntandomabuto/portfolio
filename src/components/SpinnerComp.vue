@@ -17,7 +17,7 @@
 .spinner-border {
   width: 50px;
   height: 50px;
-  border: 3px solid #76b942; 
+  border: 3px solid #3b4930; 
   border-top: 3px solid #f3f3f3;
   border-radius: 50%;
   animation: spin 1s linear infinite;

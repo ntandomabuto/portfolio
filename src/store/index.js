@@ -53,16 +53,6 @@ export default createStore({
         console.error('Error fetching projects data:', error);
       }
     },
-    async getTestimonials(context){
-      try {
-        let fetchedData = await fetch('https://ntandomabuto.github.io/data/data.json');
-        let review = await fetchedData.json();
-        let {testimonials} = review;
-        context.commit('setTestimonials', testimonials);
-      } catch (error) {
-        console.error('Error fetching testimonials data:', error);
-      }
-    }
   },
   modules: {
   }

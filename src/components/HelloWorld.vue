@@ -48,9 +48,15 @@ button{
   border-radius: 2rem;
   width: 100px;
   transition: transform linear 1s;
+  margin: 20px;
 }
-button:hover{
+/* button:hover{
   background: #76b942;
+} */
+
+button:hover {
+   background: #76b942;
+background: linear-gradient(0deg, #58922b 0%, rgb(116, 229, 127) 100%);
 }
 img{
   border-radius: 7rem;

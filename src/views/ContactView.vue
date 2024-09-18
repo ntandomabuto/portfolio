@@ -1,5 +1,6 @@
 <template>
-    <div id="contact">
+    <div id="contact"></div>
+    <div id="contac">
         <h1 class="head-cont">Contact</h1>
         <div class="container-cont">
             <div class="contact-details">
@@ -49,27 +50,38 @@ h1:hover{
     align-content: center;
     text-align: center;
     justify-content: space-evenly;
-    padding: 100px;
+    padding: 120px;
 }
 .form-group{
     /* padding: 10px; */
     display: grid;
     text-align: center;
 }
+.form-group input{
+    width: 300px;
+    height: 5vh;
+}
 #cont{
     color: white;
     background-color: #40d317;
 
 }
+
 #cont{
     margin: 5px;
     /* background: grey; */
     text-decoration: solid black ;
     border-radius: 2rem;
 }
+/* #contact{
+    margin: 120px;
+} */
 #cont:hover{
     color: white;
     background-color: black;
+}
+#contact{
+    height: 10vh;
 }
 @media screen and (max-width:780px) {
     *{

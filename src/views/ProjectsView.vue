@@ -1,5 +1,6 @@
 <template>
-    <div id="projects">
+    <div id="projects"></div>
+    <div id="proj">
     <h1>Projects</h1>
         <card-comp>
         <template #proSlot>
@@ -10,7 +11,7 @@
                  <h5 class="card-title">{{project.name}}</h5>
                  <p class="card-text">{{project.description}}</p>
                  <a v-bind:href="project.github" class="btn btn-primary" target="_blank"><i class="fa-brands fa-github fa-xl">{{github}}</i></a>
-                 <a v-bind:href="project.vercel" class="btn btn-primary" target="_blank"><i class="fa-solid fa-server">{{vercel}}</i>Visit</a>
+                 <a v-bind:href="project.vercel" class="btn btn-primary" target="_blank"><i class="fa-solid fa-server">{{vercel}}</i>Live</a>
              </div>
         </div>
     </section>
@@ -73,6 +74,13 @@ section{
     color: white;
     box-shadow: 2px 3px 5px black;
 }
+img{
+    border-radius:2rem;
+    height: 30vh;
+}
+#projects{
+    height: 10vh;
+}
 @media screen and (max-width:780px) {
     *{
         color: white;
@@ -80,10 +88,11 @@ section{
       .card{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin: auto;
         
         
     }
-    #projects{
+    #proj{
         display: grid;
     }
     
