@@ -103,7 +103,18 @@ img{
 @media screen and (max-width:780px) {
       .educa{
         display: grid;
-        
+    }
+    #res{
+        margin-top: 210px;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+      .educa{
+        display: grid;
+    }
+    #res{
+        margin-top: 210px;
     }
     
 }

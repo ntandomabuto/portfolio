@@ -149,8 +149,23 @@ h1:hover{
     }
     .skills{
       display: grid;
+      margin-left: -70px;
       grid-template-columns: repeat(4,1fr);
     }
+    
+    
+}
+@media screen and (max-width:1200px) {
+      .about{
+        display: grid;
+        margin-left: 10px;
+    }
+    .skills{
+      display: grid;
+      margin-left: -70px;
+      grid-template-columns: repeat(4,1fr);
+    }
+    
     
 }
 </style>

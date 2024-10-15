@@ -97,5 +97,20 @@ img{
     }
     
 }
+@media screen and (max-width:320px) {
+   section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+    
+}
+@media screen and (max-width:1200px) {
+   section{
+    display: grid;
+    margin-left: -20px;
+    /* grid-template: repeat(2,1fr); */
+   }
+    
+}
 
 </style>

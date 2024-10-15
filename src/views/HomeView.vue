@@ -58,6 +58,7 @@ export default {
       }
       .container{
         display: grid;
+        margin-bottom: 20px;
         
     }
     .home{
