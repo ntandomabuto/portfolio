@@ -1,7 +1,7 @@
 <template>
     <div id="resume"></div>
     <div id="res">
-        <h1>Education</h1>
+        <h1>Education & Work</h1>
 <card-comp>
     <template #resumeSlot>
         <section id="educa">
@@ -90,9 +90,10 @@ p{
 }
 #educa{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     margin-bottom: 100px;
 }
+
 img{
     border-radius: 2rem;
 }
@@ -101,8 +102,9 @@ img{
     height: 10vh;
 }
 @media screen and (max-width:780px) {
-      .educa{
+      #educa{
         display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
     #res{
         margin-top: 210px;
@@ -110,8 +112,9 @@ img{
     
 }
 @media screen and (max-width:1200px) {
-      .educa{
+    #educa{
         display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
     #res{
         margin-top: 210px;

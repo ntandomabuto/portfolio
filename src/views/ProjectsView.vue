@@ -58,6 +58,7 @@ section{
 .card-body a{
     background-color: #40d317;
     margin: 10px;
+    border-radius: 2rem;
     transition: transform linear 1s;
     /* border-radius: 2rex; */
     
