@@ -42,7 +42,7 @@
             </div>
             <div class="mysql">
                 <i class="fa-solid fa-database fa-5x" style="color:rgb(116, 114, 114);"></i>
-                <h4>MySql</h4>
+                <h6>MySql</h6>
             </div>
         </section>
         </div>
@@ -90,6 +90,10 @@ h1{
   animation: fadeIn 5s ease-in-out;
   height: 80vh; 
   margin:10px;
+}
+h6{
+  text-shadow: 2px 3px 3px black;
+
 }
 .skills div{
     margin-bottom: 10%;
