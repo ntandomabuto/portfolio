@@ -50,16 +50,24 @@ h1:hover{
     align-content: center;
     text-align: center;
     justify-content: space-evenly;
-    padding: 120px;
+    padding: 110px;
 }
 .form-group{
     /* padding: 10px; */
     display: grid;
     text-align: center;
 }
+h2,p,label{
+    text-shadow: 2px 3px 3px black;
+
+}
 .form-group input{
     width: 300px;
     height: 5vh;
+    border-radius:1rem ;
+}
+.form-group textarea{
+    border-radius: 1rem;
 }
 #cont{
     color: white;

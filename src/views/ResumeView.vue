@@ -6,7 +6,7 @@
     <template #resumeSlot>
         <section id="educa">
             <div v-for="education in education()" :key="education" class="res">
-                <img :src="education.img" alt="" width="30%" height="250vh">
+                <img :src="education.img" alt="" width="50%" height="250vh">
                 <h5>  {{ education.description }}<br>
                     {{ education.institution }}{{ education.insititution }}<br>
                     {{ education.year }}<br>
@@ -119,6 +119,7 @@ img{
     #res{
         margin-top: 210px;
     }
+    
     
 }
 </style>

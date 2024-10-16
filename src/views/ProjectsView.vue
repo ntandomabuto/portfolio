@@ -11,7 +11,7 @@
                  <h5 class="card-title">{{project.name}}</h5>
                  <p class="card-text">{{project.description}}</p>
                  <a v-bind:href="project.github" class="btn btn-primary" target="_blank"><i class="fa-brands fa-github fa-xl">{{github}}</i></a>
-                 <a v-bind:href="project.vercel" class="btn btn-primary" target="_blank"><i class="fa-solid fa-server">{{vercel}}</i>Live</a>
+                 <a v-bind:href="project.vercel" class="btn btn-primary" target="_blank"><i class="fa-solid fa-globe">{{vercel}}</i>Live</a>
              </div>
         </div>
     </section>
@@ -50,6 +50,10 @@ export default {
 }
 h1:hover{
   color: #40d317;
+}
+h5,p{
+    text-shadow: 2px 3px 3px black;
+
 }
 section{
     display: grid;
