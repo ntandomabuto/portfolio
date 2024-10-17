@@ -6,7 +6,7 @@
     <template #resumeSlot>
         <section id="educa">
             <div v-for="education in education()" :key="education" class="res">
-                <img :src="education.img" alt="" width="50%" height="250vh">
+                <img :src="education.img" alt="" width="50%" height="250vh"> <br><br><br>
                 <h5>  {{ education.description }}<br>
                     {{ education.institution }}{{ education.insititution }}<br>
                     {{ education.year }}<br>
@@ -22,7 +22,7 @@
         </section>
     </template>
 </card-comp>
-<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/cv.docx"><i class="fa-solid fa-arrow-right-to-bracket">CV</i></a></button>
+<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/cv.docx"><i class="fa-solid fa-arrow-right-to-bracket"> Resume</i></a></button>
 
 
     </div>
@@ -91,7 +91,7 @@ p{
 #educa{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 img{
