@@ -5,7 +5,7 @@
       <h1>Hello</h1>
       <h1>I am Ntando Mabuto</h1>
       <h1>{{ msg }}</h1>
-      <button type="button"><a href="#about">About Me</a>
+      <button type="button" style="width: 30%;height: 6%;"><a href="#about"><h5> About Me</h5></a>
       </button>
 
     </div>
@@ -50,7 +50,7 @@ button{
   border-radius: 2rem;
   width: 100px;
   transition: transform linear 1s;
-  margin: 20px;
+  margin: 50px;
 }
 /* button:hover{
   background: #76b942;
@@ -62,6 +62,7 @@ background: linear-gradient(0deg, #58922b 0%, rgb(116, 229, 127) 100%);
 }
 img{
   border-radius: 7rem;
+  margin-top: 30px;
 }
 h1{
   padding-left: 25px;

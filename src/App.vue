@@ -56,7 +56,7 @@ nav{
   overflow: hidden;
   } */
   nav a {
-  background-color: rgb(116, 114, 114);
+  /* background-color: rgb(116, 114, 114); */
   border-radius: 2rem;
   padding: 5px;
   font-weight: bold;
