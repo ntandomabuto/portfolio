@@ -60,7 +60,9 @@ export default {
     text-decoration: none;
 
 }
-
+img{
+    opacity: .7;
+}
 
 h1{
   text-shadow: 3px 5px 3px black;

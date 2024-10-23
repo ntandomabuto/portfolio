@@ -55,6 +55,9 @@ h5,p{
     text-shadow: 2px 3px 3px black;
 
 }
+img{
+    opacity:.5;
+}
 section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -73,14 +76,14 @@ section{
     /* box-shadow: 0 0 15px 2px black; */
 }
 .card{
-    margin: 15%;
+    margin: 18%;
     background: rgb(116, 114, 114);
-    border-radius: 5rem;
+    border-radius: 3rem;
     color: white;
     box-shadow: 2px 3px 5px black;
 }
 img{
-    border-radius:2rem;
+    border-radius:3rem;
     height: 30vh;
 }
 #projects{
