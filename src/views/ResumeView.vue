@@ -73,7 +73,7 @@ button:hover {
    /* background: #76b942; */
    transform: scale(1,2);
     transform:scale(1.2);
-background: linear-gradient(0deg, #58922b 0%, #76b942) 100%);
+background: linear-gradient(0deg, #58922b 0%, #76b942);
 }
 img{
     opacity: .7;
