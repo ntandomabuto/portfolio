@@ -22,7 +22,7 @@
         </section>
     </template>
 </card-comp>
-<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/cv.docx"><i class="fa-solid fa-arrow-right-to-bracket"> Resume</i></a></button>
+<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/Ntando Mabuto CV.pdf" target="_blank"><i class="fa-solid fa-arrow-right-to-bracket"> Resume</i></a></button>
 
 
     </div>
