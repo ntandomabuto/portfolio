@@ -42,6 +42,11 @@ export default {
   text-shadow: 3px 5px 3px black;
   transition: transform linear 2s;
 }
+.contact-details p{
+    text-align: start;
+    margin-top: 25px;
+
+}
 h1:hover{
   color: #40d317;
 }
@@ -52,6 +57,10 @@ h1:hover{
     justify-content: space-evenly;
     padding: 110px;
 }
+input,textarea{
+    padding-left: 15px;
+}
+
 .form-group{
     /* padding: 10px; */
     display: grid;
@@ -72,21 +81,18 @@ h2,p,label{
 #cont{
     color: white;
     background-color: #40d317;
-
-}
-
-#cont{
-    margin: 5px;
-    /* background: grey; */
+    margin: 10px;
+    margin-top: 15px;
     text-decoration: solid black ;
     border-radius: 2rem;
+    width: 110px;
+
 }
-/* #contact{
-    margin: 120px;
-} */
+
 #cont:hover{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:grey;
+
 }
 #contact{
     height: 10vh;

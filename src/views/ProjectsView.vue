@@ -76,14 +76,15 @@ section{
     /* box-shadow: 0 0 15px 2px black; */
 }
 .card{
-    margin: 18%;
+    margin-left: 18%;
+    margin-bottom: 8%;
     background: rgb(116, 114, 114);
     border-radius: 3rem;
     color: white;
     box-shadow: 2px 3px 5px black;
 }
 img{
-    border-radius:3rem;
+    border-radius:2.7rem;
     height: 30vh;
 }
 #projects{

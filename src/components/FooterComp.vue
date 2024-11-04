@@ -24,5 +24,6 @@ export default {
     }
     a i{
         width: 50px;
+        text-shadow: 1px 3px 1px black;
     }
 </style>

@@ -22,7 +22,7 @@
         </section>
     </template>
 </card-comp>
-<button type="button" id="download"><a href="https://ntandomabuto.github.io/images/Ntando Mabuto CV.pdf" target="_blank"><i class="fa-solid fa-arrow-right-to-bracket"> Resume</i></a></button>
+<button type="button" id="download" ><a href="https://ntandomabuto.github.io/images/Ntando Mabuto CV.pdf" target="_blank"><i class="fa-solid fa-arrow-right-to-bracket"> Resume</i></a></button>
 
 
     </div>
@@ -63,7 +63,8 @@ export default {
 button{
   background-color: grey;
   border-radius: 2rem;
-  width: 100px;
+  width: 120px;
+  /* height: 9%; */
   transition: transform linear 1s;
   margin: 50px;
 }
