@@ -91,18 +91,12 @@ img{
     height: 10vh;
 }
 @media screen and (max-width:780px) {
-    *{
-        color: white;
-      }
       .card{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin: auto;
+        margin-bottom: 15px;
+        margin-left: 16px;
         
-        
-    }
-    #proj{
-        display: grid;
     }
     
 }
@@ -111,14 +105,19 @@ img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
    }
+   .card{
+    margin-bottom: 15px;
+    margin-left: 120px;
+   }
     
 }
 @media screen and (max-width:1200px) {
    section{
     display: grid;
-    margin-left: -20px;
+    /* margin-left: -20px; */
     /* grid-template: repeat(2,1fr); */
    }
+   
     
 }
 
