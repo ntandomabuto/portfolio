@@ -44,6 +44,10 @@
                 <i class="fa-solid fa-database fa-5x" style="color:rgb(116, 114, 114);"></i>
                 <h6>MySql</h6>
             </div>
+            <div class="git">
+              <i class="fa-brands fa-github fa-5x" style="color:rgb(116, 114, 114);" ></i>
+                <h6>GIT</h6>
+            </div>
         </section>
         </div>
     </div>
@@ -107,7 +111,7 @@ h6{
 }
 .skills{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     justify-content: center;
     margin: 50px;
 }
@@ -154,7 +158,7 @@ h1:hover{
     .skills{
       display: grid;
       margin-left: -70px;
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(3,1fr);
     }
     
     
@@ -167,7 +171,7 @@ h1:hover{
     .skills{
       display: grid;
       margin-left: -70px;
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(3,1fr);
     }
     
     
